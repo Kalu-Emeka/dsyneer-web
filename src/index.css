@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 body {
-  font-family: "Space Grotesk", serif;
+   font-family: "Arimo", sans-serif;  
 }
 /* .ab {
   background-image: url("/Images/Group.png");

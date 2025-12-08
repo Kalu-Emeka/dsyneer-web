@@ -5,22 +5,22 @@ function LandingPage () {
     return (
         <>
             <Navbar/>
-            <div className="header pt-[130px] pr-[100px] pb-[80px] pl-[80px] text-black bg-[#FDFBF4] sm:pr-[30px] sm:pl-[30px] lg:pr-[100px] lg:pl-[80px]" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div className="header pt-[140px] pr-[100px] pb-[60px] pl-[80px] text-black bg-[#FFFFFF] sm:pr-[30px] sm:pl-[30px] lg:pr-[100px] lg:pl-[80px]" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <div className='flex justify-between items-center sm:flex-col md:flex-col lg:flex-row'>
                     <div>
-                        <h2 className="mb-2 w-[48%] text-[50px] text-[#0C394A] font-bold sm:w-full md:w-full lg:w-[48%] sm:text-[25px] md:text-[27px] lg:w-[40px]">Welcome to EasyGold Initiative for Mental Health</h2>
-                        <p className='w-[40%] text-[#3c3e41] text-bold text-[15px] mb-7 sm:mt-[15px] md:mt-[15px] lg:mt-0 sm:text-[13.5px] sm:w-[100%] md:w-[70%] lg:w-[70%]'>Empowering your journey to mental well-being</p>
-                        <div className='text-[12px] sm:mb-[30px] md:mb-[30px] lg:mb-0'>
-                            <a href="/" target="_blank" rel="noopener noreferrer"><button  className="shadow-sm mr-[20px] px-[10px] py-[8px] border text-white bg-[#E46924] rounded-md hover:bg-[#E46924]" type="button">Get started</button></a>
-                            <a href="/" target="_blank" rel="noopener noreferrer"><button  className="shadow-sm px-[10px] py-[8px] border bg-white rounded-md hover:bg-gray-200" type="button">Learn more</button></a>
+                        <h2 className="mb-2 w-[48%] text-[50px] text-[#1C1C1C] font-medium sm:w-full md:w-full lg:w-[70%] sm:text-[25px] md:text-[27px] lg:text-[40px] lg:w-[40px]">Get Custom African Wear from Trusted Tailors, Wherever You Are</h2>
+                        <p className='w-[40%] text-[#0A0A0A] text-medium text-[17px] mb-7 sm:mt-[15px] md:mt-[15px] lg:mt-0 sm:text-[13.5px] lg:text-[15px]  sm:w-[100%] md:w-[70%] lg:w-[70%]'>Connect with verified African designers, take measurements with your phone, and receive perfectly fitted outfits delivered to your doorstep.</p>
+                        <div className='text-[13px] sm:mb-[30px] md:mb-[30px] lg:mb-0'>
+                            <a href="/" rel="noopener noreferrer"><button className="bg-[#6B3E26] text-white rounded-[9px] px-[17px] py-[9px] font-[10px] mr-[20px]">Book a Demo</button></a>
+                            <a href="/" rel="noopener noreferrer"><button className="border-[#6B3E26] border-1 text-[#6B3E26] rounded-[9px] px-[17px] py-[8px] font-[10px]">Join Waitlist</button></a>
                         </div>
                     </div>
-                    <div className='ic w-[29%] sm:w-[60%] md:w-[60%] lg:w-[29%]'>
-                        <img src="/Images/Group (1).png" className='' alt="" />
+                    <div className='ic w-[29%] sm:w-[68%] md:w-[68%] lg:w-[70%]'>
+                        <img src="/Images/Container.webp" className='' alt="" />
                     </div>
                 </div>  
             </div>
-            <section id="" className='ab mt-[10px] bg-[#FDFBF5] py-10 sm:p-[25px] md:p-[25px] lg:py-12 lg:px-[80px] px-[30px]'  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <section id="" className='ab mt-[10px] py-10 sm:p-[25px] md:p-[25px] lg:py-12 lg:px-[80px] px-[30px]'  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <div className="grid grid-cols-2 gap-4 mt-5 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 place-items-center">
                     <div className="flex justify-center items-center">
                         <img src="/Images/Group (2).png" className='w-[55%] sm:w-[60%] md:w-[60%] lg:w-[55%]' alt="" />
@@ -116,7 +116,7 @@ function LandingPage () {
                             <i className='text-[#BFC6CA] text-[13px]'>Published: August 1, 2024</i>
                             <p className='text-[14px] mt-[30px] sm:mt-[10px] md:mt-[10px] lg:mt-[30px]'>Find out how to balance your professional and personal responsibilities. Tips and strategies for setting boundaries, managing stress, and finding time to rest & care.</p> 
                         </div>
-                         <div className='flex pl-[20px] my-[20px]'>
+                        <div className='flex pl-[20px] my-[20px]'>
                             <p className='text-[13px]  text-[#A184CF]'>Read More</p>
                             <img className='w-[4%] object-contain ml-[5px]' src="/icons/Arrow_right.png" alt="" />
                         </div>
