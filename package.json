@@ -9,6 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  
   "dependencies": {
     "@ramonak/react-progress-bar": "^5.2.0",
     "aos": "^2.3.4",
