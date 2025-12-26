@@ -15,7 +15,7 @@ function About () {
             <div className='grid grid-cols-3 gap-0 place-items-center bg-[#FFFDF9] py-[60px] px-[90px] sm:gap-4 md:gap-4 lg:gap-0 sm:py-[30px] md:py-[30px] lg:py-[60px] sm:px-[30px] md:px-[30px] lg:px-[90px]'>
                 <img className='object-contain shadow-md rounded-lg w-[70%] sm:w-[97%] md:w-[90%] lg:w-[70%] sm:mr-[15px] lg:mr-0' src="/Images/ImageWithFallback3.webp" alt="" />
                 <img className='object-contain shadow-md rounded-lg w-[70%] sm:w-[97%] md:w-[90%] lg:w-[70%] sm:mr-[10px] lg:mr-0' src="/Images/ImageWithFallback12.png" alt="" />
-                <img className='object-contain shadow-md rounded-lg w-[70%] sm:w-[97%] md:w-[90%] lg:w-[70%]' src="/Images/Container.png" alt="" />
+                <img className='object-contain shadow-md rounded-lg w-[70%] sm:w-[97%] md:w-[90%] lg:w-[62%]' src="/Images/about2.webp" alt="" />
             </div>
             <section className='mt-[50px]' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <div className='grid grid-cols-2 gap-4 bg-white py-[40px] px-[40px] sm:px-[10px] md:px-[10px] lg:px-[40px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
@@ -89,7 +89,12 @@ function About () {
                </div>
                <div className='grid grid-cols-2 gap-4 bg-white py-[40px] px-[40px] sm:px-[10px] md:px-[10px] lg:px-[40px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
                     <div className='flex flex-col bg-white px-[30px] rounded-md w-[90%] sm:px-[10px] md:px-[10px] lg:px-[40px] py-[30px] border border-2 sm:ml-[20px] lg:ml-0'>
-                        <h2 className='text-[20px] pb-[20px]'>Diaspora Clients</h2>
+                        <div className='flex items-center'>
+                            <h2 className='text-[20px] pb-[20px] mr-[10px]'>Diaspora Clients</h2> 
+                            <img className='w-[5%] onject-contain pb-[20px] mr-[5px]' src="/icons/usa.webp" alt="" />
+                            <img className='w-[5%] onject-contain pb-[20px] mr-[5px]' src="/icons/uk.webp" alt="" />
+                            <img className='w-[5%] onject-contain pb-[20px]' src="/icons/can.webp" alt="" />
+                        </div>
                         <p className='text-[15px]'>Stay connected to your roots with authentic African fashion, delivered anywhere in the world.</p>
                         <div className='flex mt-[20px]'>
                             <img className='w-[3%] mr-[10px] object-contain' src="/icons/Container11.webp" alt="" />
@@ -113,7 +118,10 @@ function About () {
                         </div>
                     </div>
                    <div className='flex flex-col bg-white px-[30px] rounded-md w-[90%] sm:px-[10px] md:px-[10px] lg:px-[40px] py-[30px] border border-2 sm:ml-[20px] lg:ml-0'>
-                        <h2 className='text-[20px] pb-[20px]'>African Tailors</h2>
+                        <div className='flex items-center'>
+                            <h2 className='text-[20px] pb-[20px] mr-[5px]'>African Tailors</h2>
+                            <img className='w-[5%] onject-contain pb-[20px]' src="/icons/nig.webp" alt="" />
+                        </div>
                         <p className='text-[15px]'>Expand your business globally and manage diaspora clients with confidence.</p>
                         <div className='flex mt-[20px]'>
                             <img className='w-[3%] mr-[10px] object-contain' src="/icons/Container11.webp" alt="" />

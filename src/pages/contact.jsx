@@ -17,22 +17,22 @@ function Contacts  () {
                     <div className='grid grid-cols-2 gap-4 bg-white py-[40px] px-[40px] sm:px-[10px] md:px-[10px] lg:px-[40px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 sm:ml-[20px] lg:ml-0'>
                         <div className='flex flex-col bg-white py-[20px] px-[30px] rounded-[15px] w-[90%] border shadow-sm'>
                             <h2 className='text-[24px] py-[20px]'>Send Us a Message</h2>
-                            <form action="" className='mt-[10px]'>
+                            <form  action="https://formspree.io/f/xqekaqbw" method="POST" className='mt-[10px]'>
                                 <div className='flex flex-col mb-[5px]'>
                                     <label htmlFor="name" className='mb-[5px]'>Name</label>
-                                    <input className='pl-[15px] py-[5px] mb-[10px] outline-none bg-[#EDEDED] text-[#717182] border-b rounded-[10px] text-[15px]' type="text" placeholder='Your full name' />
+                                    <input className='pl-[15px] py-[5px] mb-[10px] outline-none bg-[#EDEDED] text-[#717182] border-b rounded-[10px] text-[15px]'   name="Name" type="text" placeholder='Your full name' />
                                 </div>
                                 <div className='flex flex-col mb-[5px]'>
                                     <label htmlFor="name" className='mb-[5px]'>Email</label>
-                                    <input className='pl-[15px] py-[5px] mb-[10px] outline-none bg-[#EDEDED] text-[#717182] border-b rounded-[10px] text-[15px]' type="text" placeholder='your.email@example.com' />
+                                    <input className='pl-[15px] py-[5px] mb-[10px] outline-none bg-[#EDEDED] text-[#717182] border-b rounded-[10px] text-[15px]' name="Email Address" type="text" placeholder='your.email@example.com' />
                                 </div>
                                 <div className='flex flex-col mb-[5px]'>
                                     <label htmlFor="name" className='mb-[5px]'>Subject</label>
-                                    <input className='pl-[15px] py-[5px] mb-[10px] outline-none bg-[#EDEDED] text-[#717182] border-b rounded-[10px] text-[15px]' type="text" placeholder='Whats this about?' />
+                                    <input className='pl-[15px] py-[5px] mb-[10px] outline-none bg-[#EDEDED] text-[#717182] border-b rounded-[10px] text-[15px]' name="Subject" type="text" placeholder='Whats this about?' />
                                 </div>
                                 <div className='flex flex-col mb-[10px]'>
                                     <label htmlFor="message" className='mb-[10px]'>Message</label>
-                                    <textarea className='pl-[15px] py-[5px] mb-[10px] outline-none bg-[#EDEDED] text-[#717182] border-b rounded-[10px] text-[15px]' placeholder='Tell us more...' name="message" id="" cols="3" rows="2"></textarea>
+                                    <textarea className='pl-[15px] py-[5px] mb-[10px] outline-none bg-[#EDEDED] text-[#717182] border-b rounded-[10px] text-[15px]' placeholder='Tell us more...' name="Message" id="" cols="3" rows="2"></textarea>
                                 </div>
                                 <button type="submit" className='w-full bg-[#6B3E26] text-white py-[13px] rounded-[20px] mb-[120px]'>Send Message</button>
                             </form>
@@ -70,7 +70,7 @@ function Contacts  () {
                                     </div>
                                     <p className='text-[13px] mb-[15px]'>Primary hub for tailor partnerships</p>
                                     <div className='flex'>
-                                        <img className='w-[5%] mr-[10px] object-contain' src="/icons/nig.webp" alt="" />
+                                        <img className='w-[5%] mr-[10px] object-contain' src="/icons/egy.webp" alt="" />
                                         <h4>Cairo, Egypt</h4>
                                     </div>
                                     <p className='text-[13px]'>Regional operations center</p>
