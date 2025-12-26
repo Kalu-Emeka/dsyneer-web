@@ -15,7 +15,7 @@ function About () {
             <div className='grid grid-cols-3 gap-0 place-items-center bg-[#FFFDF9] py-[60px] px-[90px] sm:gap-4 md:gap-4 lg:gap-0 sm:py-[30px] md:py-[30px] lg:py-[60px] sm:px-[30px] md:px-[30px] lg:px-[90px]'>
                 <img className='object-contain shadow-md rounded-lg w-[70%] sm:w-[97%] md:w-[90%] lg:w-[70%] sm:mr-[15px] lg:mr-0' src="/Images/ImageWithFallback3.webp" alt="" />
                 <img className='object-contain shadow-md rounded-lg w-[70%] sm:w-[97%] md:w-[90%] lg:w-[70%] sm:mr-[10px] lg:mr-0' src="/Images/ImageWithFallback12.png" alt="" />
-                <img className='object-contain shadow-md rounded-lg w-[70%] sm:w-[97%] md:w-[90%] lg:w-[62%]' src="/Images/about2.webp" alt="" />
+                <img className='object-contain shadow-md rounded-lg w-[60%] sm:w-[86%] md:w-[90%] lg:w-[62%]' src="/Images/about2.webp" alt="" />
             </div>
             <section className='mt-[50px]' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <div className='grid grid-cols-2 gap-4 bg-white py-[40px] px-[40px] sm:px-[10px] md:px-[10px] lg:px-[40px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
@@ -66,7 +66,7 @@ function About () {
                     </div>
                 </div>
                 <div className="flex space-x-10 mt-12 sm:flex-col lg:flex-row sm:space-x-0 lg:space-x-10">
-                     <div className='border border-2 rounded-lg px-[20px] py-[20px] w-[90%]'>
+                     <div className='border border-2 rounded-lg px-[20px] py-[20px] mb-[10px] w-[90%]'>
                         <img className='w-[11%] object-contain mb-[27px]' src="/icons/AboutPage1.png" alt=""/>
                         <div>
                             <p className='text-[#0A0A0A] text-[14px]'>Global Delivery Network</p>

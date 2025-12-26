@@ -82,7 +82,7 @@ function Contacts  () {
                 <section className='mt-[10px] bg-white py-[90px]'>
                     <div className='flex justify-center items-center flex-col'>
                         <h2 className='text-[#1C1C1C] font-medium text-[28px] sm:text-[25px] md:text-[25px] lg:text-[28px] text-center'>Ready to Get Started?</h2>
-                        <p className='text-[#0A0A0A] text-[16px] mt-[15px]'>Join our waitlist or book a demo to see DSYNEER in action.</p>
+                        <p className='text-[#0A0A0A] text-[16px] mt-[15px] sm:w-[90%] lg:w-full text-center'>Join our waitlist or book a demo to see DSYNEER in action.</p>
                         <div className="flex items-center text-[15px] space-x-5 text-[#1C1C1C] pl-[40px] mt-[25px]">
                             <a href="/join-waitlist" rel="noopener noreferrer"><button className="bg-[#6B3E26] text-white rounded-[9px] px-[22px] py-[11px] font-[10px]">Book a Demo</button></a>
                             <a href="/join-waitlist" rel="noopener noreferrer"><button className="bg-white text-[#6B3E26] border-[#6B3E26] border-2 rounded-[9px] px-[22px] py-[11px] font-[10px]">Join Waitlist</button></a>
