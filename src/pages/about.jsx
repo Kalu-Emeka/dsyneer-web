@@ -14,7 +14,7 @@ function About () {
             </div>
             <div className='grid grid-cols-3 gap-0 place-items-center bg-[#FFFDF9] py-[60px] px-[90px] sm:gap-4 md:gap-4 lg:gap-0 sm:py-[30px] md:py-[30px] lg:py-[60px] sm:px-[30px] md:px-[30px] lg:px-[90px]'>
                 <img className='object-contain shadow-md rounded-lg w-[70%] sm:w-[97%] md:w-[90%] lg:w-[70%] sm:mr-[15px] lg:mr-0' src="/Images/ImageWithFallback3.webp" alt="" />
-                <img className='object-contain shadow-md rounded-lg w-[70%] sm:w-[97%] md:w-[90%] lg:w-[70%] sm:mr-[10px] lg:mr-0' src="/Images/ImageWithFallback12.png" alt="" />
+                <img className='object-contain shadow-md rounded-lg w-[70%] sm:w-[97%] md:w-[90%] lg:w-[70%] sm:mr-[4px] lg:mr-0' src="/Images/ImageWithFallback12.png" alt="" />
                 <img className='object-contain shadow-md rounded-lg w-[60%] sm:w-[86%] md:w-[90%] lg:w-[62%]' src="/Images/about2.webp" alt="" />
             </div>
             <section className='mt-[50px]' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">

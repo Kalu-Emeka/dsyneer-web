@@ -8,7 +8,7 @@ function Waitlist () {
                     <div className="header pt-[140px] pr-[100px] pb-[30px] pl-[80px] text-black bg-[#FFFFFF] sm:pr-[30px] sm:pl-[30px] lg:pr-[100px] lg:pl-[80px]" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div className='flex justify-center items-center'>
                         <div className='relative flex justify-center items-center flex-col text-center'>
-                            <img className='w-[1.5%] absolute top-[6%] left-[250px] sm:w-[4%] lg:w-[3%] sm:left-[125px] md:left-[190px] lg:left-[250px]' src="/icons/Icon.webp" alt="" />
+                            <img className='w-[1.5%] absolute top-[6%] left-[250px] sm:w-[4%] lg:w-[3%] sm:left-[110px] md:left-[190px] lg:left-[250px]' src="/icons/Icon.webp" alt="" />
                             <button className='bg-[#FEF6E5] border border-[#FEF6E5] text-[14px] text-[#6B3E26] py-[7px] px-[15px] rounded-[20px] mb-[11px] pl-[40px]'>Limited Early Access</button>
                             <h2 className="mb-2 w-[48%] text-[50px] text-[#1C1C1C] font-normal sm:w-full md:w-full sm:text-[25px] md:text-[27px] lg:text-[40px]">Be Among the First to Try DSYNEER</h2>
                             <p className='text-[#0A0A0A] text-medium text-[17px] mb-7 sm:mt-[15px] md:mt-[15px] lg:mt-0 sm:text-[13.5px] lg:text-[15px]'>Join our exclusive waitlist to get early access, special perks, and updates when we launch.</p>
