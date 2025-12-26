@@ -5,123 +5,163 @@ function LandingPage () {
     return (
         <>
             <Navbar/>
-            <div className="header pt-[140px] pr-[100px] pb-[60px] pl-[80px] text-black bg-[#FFFFFF] sm:pr-[30px] sm:pl-[30px] lg:pr-[100px] lg:pl-[80px]" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div className="header pt-[140px] pr-[100px] pb-[30px] pl-[80px] text-black bg-[#FFFFFF] sm:pr-[30px] sm:pl-[30px] lg:pr-[100px] lg:pl-[80px]" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <div className='flex justify-between items-center sm:flex-col md:flex-col lg:flex-row'>
                     <div>
                         <h2 className="mb-2 w-[48%] text-[50px] text-[#1C1C1C] font-medium sm:w-full md:w-full lg:w-[70%] sm:text-[25px] md:text-[27px] lg:text-[40px] lg:w-[40px]">Get Custom African Wear from Trusted Tailors, Wherever You Are</h2>
                         <p className='w-[40%] text-[#0A0A0A] text-medium text-[17px] mb-7 sm:mt-[15px] md:mt-[15px] lg:mt-0 sm:text-[13.5px] lg:text-[15px]  sm:w-[100%] md:w-[70%] lg:w-[70%]'>Connect with verified African designers, take measurements with your phone, and receive perfectly fitted outfits delivered to your doorstep.</p>
                         <div className='text-[13px] sm:mb-[30px] md:mb-[30px] lg:mb-0'>
-                            <a href="/" rel="noopener noreferrer"><button className="bg-[#6B3E26] text-white rounded-[9px] px-[17px] py-[9px] font-[10px] mr-[20px]">Book a Demo</button></a>
-                            <a href="/" rel="noopener noreferrer"><button className="border-[#6B3E26] border-1 text-[#6B3E26] rounded-[9px] px-[17px] py-[8px] font-[10px]">Join Waitlist</button></a>
+                            <a href="/join-waitlist" rel="noopener noreferrer"><button className="bg-[#6B3E26] text-white rounded-[9px] px-[17px] py-[9px] font-[10px] mr-[20px]">Book a Demo</button></a>
+                            <a href="/join-waitlist" rel="noopener noreferrer"><button className="border-[#6B3E26] border-1 text-[#6B3E26] rounded-[9px] px-[17px] py-[8px] font-[10px]">Join Waitlist</button></a>
                         </div>
                     </div>
-                    <div className='ic w-[29%] sm:w-[68%] md:w-[68%] lg:w-[70%]'>
+                    <div className='ic w-[29%] sm:w-[90%] md:w-[70%] lg:w-[70%]'>
                         <img src="/Images/Container.webp" className='' alt="" />
                     </div>
                 </div>  
             </div>
-            <section id="" className='ab mt-[10px] py-10 sm:p-[25px] md:p-[25px] lg:py-12 lg:px-[80px] px-[30px]'  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-                <div className="grid grid-cols-2 gap-4 mt-5 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 place-items-center">
-                    <div className="flex justify-center items-center">
-                        <img src="/Images/Group (2).png" className='w-[55%] sm:w-[60%] md:w-[60%] lg:w-[55%]' alt="" />
-                    </div>
-                    <div className="mt-[30px]">
-                        <h1 className='mb-[20px] text-[27px] text-[#0C394A] font-bold'>About Us</h1>
-                        <p className='text-[#0C394A] w-[95%] text-[13px] sm:text-[14px] md:text-[15px] lg:text-[13.5px]'>Easygold Initiative for Mental Health was conceived as a response to the growing global mental health crisis. Recognizing the need for a holistic approach to mental health, the initiative’s primary objectives are: to increase awareness and understanding of mental health issues to reduce stigma and discrimination and offer easy access to resources, tools, and information for individuals seeking help or support.</p>
-                        <a href="/" target="_blank" rel="noopener noreferrer"><button  className="shadow-sm px-[10px] py-[8px] border bg-white rounded-md hover:bg-gray-200 text-[12px] mt-[20px]" type="button">View more</button></a>
-                    </div>
+            <section id="" className='mt-[50px] py-10 sm:p-[25px] md:p-[25px] lg:py-12 pl-[70px] sm:mt-[20px] md:mt-[20px] lg:mt-[50px]'  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+               <div className='flex justiy-center items-center flex-col mt-5 sm:mt-2 md:mt-2 lg:mt-5'>
+                    <h2 className='text-[#1C1C1C] font-medium text-[25px]'>How It Works</h2>
+                    <p className='text-[#0A0A0A] text-[15px] mt-[15px]'>Three simple steps to getting your perfect custom outfit</p>
+               </div>
+                <div className="grid grid-cols-3 pl-[80px] gap-2 mt-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center sm:pl-[60px] md:pl-[60px] lg:pl-[80px]">
+                    <div className='sm:mb-[20px] md:mb-[20px] lg:mb-0'>
+                        <img className='w-[80%] rounded-t-md' src="/Images/ImageWithFallback.webp" alt=""/>
+                        <div className='pl-[25px] pt-[20px] border rounded-b-md w-[80%] shadow-sm'>
+                            <h3 className='text-[#F4A300] font-medium text-[27px]'>01</h3>
+                            <p className='text-[#0A0A0A] text-[14px] mt-[15px]'>Find Your Tailor</p>
+                            <p className='text-[#0A0A0A] text-[13px] mt-[10px] w-[90%] pb-[30px]'>Browse verified African tailors with portfolios and reviews from diaspora clients.</p>
+                        </div>
+                    </div> 
+                    <div className='sm:mb-[20px] md:mb-[20px] lg:mb-0'>
+                        <img className='w-[80%] rounded-t-md' src="/Images/HomePage.webp" alt=""/>
+                        <div className='pl-[25px] pt-[20px] border rounded-b-md w-[80%] shadow-sm'>
+                            <h3 className='text-[#F4A300] font-medium text-[27px]'>02</h3>
+                            <p className='text-[#0A0A0A] text-[14px] mt-[15px]'>Get Measured & Styled</p>
+                            <p className='text-[#0A0A0A] text-[13px] mt-[10px] w-[95%] pb-[30px]'>Use our AI-powered phone measurement tool and collaborate on your design3</p>
+                        </div>
+                    </div>  
+                    <div className=''>
+                        <img className='w-[80%] rounded-t-md' src="/Images/ImageWithFallback2.webp" alt=""/>
+                        <div className='pl-[25px] pt-[20px] border rounded-b-md w-[80%] shadow-sm'>
+                            <h3 className='text-[#F4A300] font-medium text-[27px]'>03</h3>
+                            <p className='text-[#0A0A0A] text-[14px] mt-[15px]'>Pay Securely & Receive Delivery</p>
+                            <p className='text-[#0A0A0A] text-[13px] mt-[10px] w-[97%] pb-[30px]'>Pay safely with escrow protection and track your order to your doorstep anywhere in the world.</p>
+                        </div>
+                    </div>  
                 </div>
             </section>
-            <section className='clip mt-[10px] bg-[#FDFBF5] p-20 sm:p-[25px] md:p-[25px] lg:p-20'  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-                <div className=''>
-                    <h1 className='mb-2 text-center text-[50px] text-[#0C394A] sm:text-[17px] md:text-[30px] font-bold'>Here's preview of our programs</h1>
-                </div>
-                <div className="flex justify-center sm:flex-col md:flex-col lg:flex-row">
-                    <div className='shadow-md text-center bg-[#FDFBF5] rounded-md flex justify-center items-center flex-col py-[10px] w-[25%] mt-[20px] mr-[50px] hover:shadow-lg sm:w-full md:w-full lg:w-[25%]'>
-                        <img className='w-[12%]' src="/icons/Frame 73.png" alt="" />
-                        <h1 className='text-[#0C394A] text-[16px] my-[20px] w-[70%]'>Personalized Therapy Sessions</h1>
-                        <p className='text-[12px] w-[90%]'>One-on-one virtual therapy sessions with licensed mental health professionals.</p>
-                        <a href="/" target="_blank" rel="noopener noreferrer"><button  className="shadow-sm px-[25px] py-[8px] border bg-white rounded-md hover:bg-gray-200 text-[12px] mt-[20px]" type="button">More</button></a>
-                    </div>
-                    <div className='shadow-md text-center bg-[#FDFBF5] rounded-md flex justify-center items-center flex-col py-[10px] w-[25%] mt-[20px]  mr-[50px] hover:shadow-lg sm:w-full md:w-full lg:w-[25%]'>
-                        <img className='w-[12%]' src="/icons/Frame 75.png" alt="" />
-                        <h1 className='text-[#0C394A] text-[16px] my-[20px] w-[70%]'>Self-Help Resource Library</h1>
-                        <p className='text-[12px] w-[90%]'>A comprehensive collection of digital resources, including articles, videos, and interactive tools.</p>
-                        <a href="/" target="_blank" rel="noopener noreferrer"><button  className="shadow-sm px-[25px] py-[7px] border bg-white rounded-md hover:bg-gray-200 text-[12px] mt-[20px]" type="button">More</button></a>
-                    </div>
-                    <div className='shadow-md text-center bg-[#FDFBF5] rounded-md flex justify-center items-center flex-col py-[10px] w-[25%] mt-[20px] mr-[50px] hover:shadow-lg sm:w-full md:w-full lg:w-[25%]'>
-                        <img className='w-[12%]' src="/icons/Frame 73 (2).png" alt="" />
-                        <h1 className='text-[#0C394A] text-[16px] my-[20px] w-[70%]'>Support Groups</h1>
-                        <p className='text-[12px] w-[90%]'>Virtual support groups for individuals facing similar mental health challenges.</p>
-                        <a href="/" target="_blank" rel="noopener noreferrer"><button  className="shadow-sm px-[25px] py-[7px] border bg-white rounded-md hover:bg-gray-200 text-[12px] mt-[20px]" type="button">More</button></a>
-                    </div>
-                </div>
-                <div className="flex justify-center mt-[20px] sm:flex-col md:flex-col lg:flex-row">
-                    <div className='shadow-md text-center bg-[#FDFBF5] rounded-md flex justify-center items-center flex-col py-[10px] w-[25%] mt-[20px] mr-[50px] hover:shadow-lg sm:w-full md:w-full lg:w-[25%]'>
-                        <img className='w-[12%]' src="/icons/Frame 73 (3).png" alt="" />
-                        <h1 className='text-[#0C394A] text-[16px] my-[20px] w-[70%]'>Mindfulness and Wellness Programs</h1>
-                        <p className='text-[12px] w-[90%]'>Programs focused on mindfulness, meditation, and overall well-being.</p>
-                        <a href="/" target="_blank" rel="noopener noreferrer"><button  className="shadow-sm px-[25px] py-[7px] border bg-white rounded-md hover:bg-gray-200 text-[12px] mt-[20px]" type="button">More</button></a>
-                    </div>
-                    <div className='shadow-md text-center bg-[#FDFBF5] rounded-md flex justify-center items-center flex-col py-[10px] w-[25%] mt-[20px]  mr-[50px] hover:shadow-lg sm:w-full md:w-full lg:w-[25%]'>
-                        <img className='w-[12%]' src="/icons/Frame 79.png" alt="" />
-                        <h1 className='text-[#0C394A] text-[16px] my-[20px] w-[70%]'>Crisis Support Services</h1>
-                        <p className='text-[12px] w-[90%]'>Immediate assistance for individuals in mental health crises.</p>
-                        <a href="/" target="_blank" rel="noopener noreferrer"><button  className="shadow-sm px-[25px] py-[8px] border bg-white rounded-md hover:bg-gray-200 text-[12px] mt-[20px]" type="button">More</button></a>
-                    </div>
-                    <div className='shadow-md text-center bg-[#FDFBF5] rounded-md flex justify-center items-center flex-col py-[10px] w-[25%] mt-[20px] mr-[50px] hover:shadow-lg sm:w-full md:w-full lg:w-[25%]'>
-                        <img className='w-[12%]' src="/icons/Frame 73 (4).png" alt="" />
-                        <h1 className='text-[#0C394A] text-[16px] my-[20px] w-[70%]'>Educational Workshops and Webinars</h1>
-                        <p className='text-[12px] w-[90%]'>Regular workshops and webinars on various mental health topics.</p>
-                        <a href="/" target="_blank" rel="noopener noreferrer"><button  className="shadow-sm px-[25px] py-[8px] border bg-white rounded-md hover:bg-gray-200 text-[12px] mt-[20px]" type="button">More</button></a>
-                    </div>
+            <section className='mt-[10px] p-20 sm:p-[25px] md:p-[25px] lg:p-15'  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <div className='flex justiy-center items-center flex-col mt-5'>
+                    <h2 className='text-[#1C1C1C] font-medium text-[25px]'>Why Choose DSYNEER</h2>
+                    <p className='text-[#0A0A0A] text-[15px] mt-[15px] sm:text-center md:text-center lg:text-left'>The trusted platform connecting diaspora clients with African tailors</p>
+               </div>
+               <div className="grid grid-cols-3 pl-[80px] gap-2 mt-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center sm:pl-[60px] md:pl-[60px] lg:pl-[80px]">
+                    <div className=''>
+                        <div className='flex'>
+                            <img className='w-[10%] object-contain mb-[22px]' src="/icons/Container2.webp" alt=""/>
+                            <div>
+                                <p className='text-[#0A0A0A] text-[13px] ml-[10px]'>Accurate AI Measurement</p>
+                                <p className='text-[#0A0A0A] text-[13px] ml-[10px] w-[80%] mt-[5px]'>Get precise measurements using just your smartphone camera.</p>
+                            </div>
+                        </div>
+                        <div className='pl-[25px] pt-[20px] w-[80%]'>
+                        </div>
+                    </div> 
+                    <div className=''>
+                        <div className='flex'>
+                            <img className='w-[10%] object-contain mb-[22px]' src="/icons/Container3.webp" alt=""/>
+                            <div>
+                                <p className='text-[#0A0A0A] text-[13px] ml-[10px]'>Trusted Tailors</p>
+                                <p className='text-[#0A0A0A] text-[13px] ml-[10px] w-[80%] mt-[5px]'>Work with verified professionals with proven track records.</p>
+                            </div>
+                        </div>
+                        <div className='pl-[25px] pt-[20px] w-[80%]'>
+                        </div>
+                    </div> 
+                    <div className=''>
+                        <div className='flex'>
+                            <img className='w-[10%] object-contain mb-[22px]' src="/icons/Container4.webp" alt=""/>
+                            <div>
+                                <p className='text-[#0A0A0A] text-[13px] ml-[10px]'>Safe Escrow Payment</p>
+                                <p className='text-[#0A0A0A] text-[13px] ml-[10px] w-[80%] mt-[5px]'>Your money is protected until you receive your perfect outfit.</p>
+                            </div>
+                        </div>
+                        <div className='pl-[25px] pt-[20px] w-[80%]'>
+                        </div>
+                    </div> 
+                    <div className='mt-[10px]'>
+                        <div className='flex'>
+                            <img className='w-[10%] object-contain mb-[22px]' src="/icons/Container5.webp" alt=""/>
+                            <div>
+                                <p className='text-[#0A0A0A] text-[13px] ml-[10px]'>Global Delivery</p>
+                                <p className='text-[#0A0A0A] text-[13px] ml-[10px] w-[80%] mt-[5px]'>Receive your custom pieces anywhere in the world, reliably.</p>
+                            </div>
+                        </div>
+                        <div className='pl-[25px] pt-[20px] w-[80%]'>
+                        </div>
+                    </div> 
+                    <div className=''>
+                        <div className='flex'>
+                            <img className='w-[10%] object-contain mb-[22px]' src="/icons/Container6.webp" alt=""/>
+                            <div>
+                                <p className='text-[#0A0A0A] text-[13px] ml-[10px]'>Seamless Communication</p>
+                                <p className='text-[#0A0A0A] text-[13px] ml-[10px] w-[80%] mt-[5px]'>Real-time messaging and video calls with your tailor.</p>
+                            </div>
+                        </div>
+                        <div className='pl-[25px] pt-[20px] w-[80%]'>
+                        </div>
+                    </div> 
                 </div>
             </section>
-            <section className='clipmt-[10px] bg-[#FDFBF5] p-20 sm:p-[25px] md:p-[25px] lg:p-20'  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-                <div className='flex justify-center'>
-                    <h1 className='w-[50%] mb-2 text-center text-[50px] text-[#0C394A] sm:text-[20px] md:text-[25px] lg:w-text-[30px] font-bold sm:w-[80%] md:w-[80%] lg:w-[50%]'>Insights, Tips, and Stories for Better Mental Health</h1>
+            <section className='clipmt-[10px] p-20 sm:p-[25px] md:p-[25px] lg:p-20'  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <div className='flex justify-center items-center sm:flex-col md:flex-col lg:flex-row'>
+                    <img className='w-[40%] object-contain sm:w-[70%] md:w-[60%] lg:w-[40%]' src="/Images/Container7.webp" alt=""/>
+                    <img className='w-[37.5%] object-contain mb-[28px] rounded-[10px]  sm:w-[70%] md:w-[60%] lg:w-[37.5%]'  src="/Images/ImageWithFallback.png" alt=""/>
                 </div>
-                <div className='flex justify-center'>
-                    <p className='flex justify-center text-center text-[15px] w-[65%] sm:w-[97%] md:w-[97%] lg:w-[65%]'>Stay informed and inspired with our latest articles and updates. Our blog features expert advice, personal stories, and practical tips to support your mental well-being.</p>
+            </section>
+             <section className='mt-[10px] p-20 sm:p-[25px] md:p-[25px] lg:p-15'  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <div className='flex justiy-center items-center flex-col mt-5'>
+                    <h2 className='text-[#1C1C1C] font-medium text-[25px]'>What Our Community Says</h2>
+                    <p className='text-[#0A0A0A] text-[15px] mt-[15px]'>Trusted by clients and tailors across continents</p>
+               </div>
+                <div className="grid grid-cols-3 gap-2 mt-14 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 place-items-center">
+                    <div className='border-2 rounded-lg p-4 w-[87%]'>
+                        <div className='flex'>
+                            <img className='w-[10%] object-contain mb-[22px]' src="/Images/Container8.webp" alt=""/>
+                            <div>
+                                <p className='text-[#0A0A0A] text-[15px] ml-[10px]'>Vanessa</p>
+                                <p className='flex text-[#0A0A0A] text-[13px] ml-[10px] mt-[5px]'><img className='w-[5%] object-contain mr-[5px]' src="/icons/usa.webp" />Atlanta, USA</p>
+                            </div>
+                        </div>
+                        <p className='text-[#0A0A0A] text-[15px] ml-[10px] w-[85%] mt-[5px] sm:w-[95%] md:w-[95%] lg:w-[85%]'>"Perfect fit all the way to Atlanta! I've never felt more confident in my traditional wear."</p>
+                        <div className='pl-[25px] pt-[20px] w-[80%]'>
+                        </div>
+                    </div> 
+                    <div className='border-2 rounded-lg p-4 w-[87%]'>
+                        <div className='flex'>
+                            <img className='w-[10%] object-contain mb-[22px]' src="/Images/Container9.webp" alt=""/>
+                            <div>
+                                <p className='text-[#0A0A0A] text-[15px] ml-[10px]'>Bola</p>
+                                <p className='flex text-[#0A0A0A] text-[13px] ml-[10px] mt-[5px]'><img className='w-[5%] object-contain mr-[5px]' src="/icons/nig.webp" />Lagos, Nigeria</p>
+                            </div>
+                        </div>
+                        <p className='text-[#0A0A0A] text-[15px] ml-[10px] w-[83%] mt-[5px] sm:w-[95%] md:w-[95%] lg:w-[83%]'>"Managing my diaspora clients has never been easier. Payments are secure and communication is seamless."</p>
+                        <div className='pl-[25px] pt-[20px] w-[80%]'>
+                        </div>
+                    </div> 
                 </div>
-                <div className='grid grid-cols-3 gap-2 mt-[40px] place-items-center sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3'>
-                    <div className='shadow-md rounded-md w-[80%] sm:mb-[20px] md:mb-[20px] lg:mb-0'>
-                        <img className='' src="/Images/Rectangle 3966 (1).png" alt="" />
-                        <div className='px-[20px]'>
-                            <h2 className='mt-[10px] my-[20px] w-[80%] sm:w-full md:w-full lg:w-[80%] sm:my-[10px] md:my-[10px] lg:my-[20px]'>Five Effective Strategies for Managing Anxiety</h2>
-                            <i className='text-[#BFC6CA] text-[13px]'>August 5, 2023</i>
-                            <p className='text-[14px] mt-[30px] sm:mt-[10px] md:mt-[10px] lg:mt-[30px]'>Discover practical techniques to help manage and reduce anxiety in your daily life. Learn how mindfulness, exercise, and professional support can make a difference.</p>
-                        </div>
-                        <div className='flex pl-[20px] my-[20px]'>
-                            <p className='text-[13px]  text-[#A184CF]'>Read More</p>
-                            <img className='w-[4%] object-contain ml-[5px]' src="/icons/Arrow_right.png" alt="" />
-                        </div>
+            </section>
+            <section className='mt-[10px] bg-[#6B3E26] py-[90px]'>
+                <div className='flex justiy-center items-center flex-col'>
+                    <h2 className='text-white text-[28px] sm:text-[25px] md:text-[25px] lg:text-[28px] text-center'>Ready to Experience Stress-Free Tailoring?</h2>
+                    <p className='text-[#C3B1A8] text-[14px] mt-[15px] w-[35%] text-center sm:w-[95%] md:w-[95%] lg:w-[35%]'>Join thousands of satisfied Clients who trust DSYNEER for their custom African wear.</p>
+                    <div className="flex items-center text-[15px] space-x-5 text-[#1C1C1C] pl-[40px] mt-[25px]">
+                        <a href="/join-waitlist" rel="noopener noreferrer"><button className="bg-[#F4A300] text-[#6B3E26] rounded-[9px] px-[17px] py-[9px] font-[10px]">Book a Demo</button></a>
+                        <a href="/join-waitlist" rel="noopener noreferrer"><button className="bg-white text-[#1C1C1C] rounded-[9px] px-[17px] py-[9px] font-[10px]">Join Waitlist</button></a>
                     </div>
-                    <div className='shadow-md rounded-md w-[80%] sm:mb-[20px] md:mb-[20px] lg:mb-0'>
-                        <img className='' src="/Images/Rectangle 3966.png" alt="" />
-                        <div className='px-[20px]'>
-                            <h2 className='mt-[10px] my-[20px] w-[80%] sm:w-full md:w-full lg:w-[80%] sm:my-[10px] md:my-[10px] lg:my-[20px]'>The Power of Community in Mental Health</h2>
-                            <i className='text-[#BFC6CA] text-[13px]'>July 25, 2024</i>
-                            <p className='text-[14px] mt-[30px] sm:mt-[10px] md:mt-[10px] lg:mt-[30px]'>Explore how connecting with others can enhance your mental well-being. Understand the benefits of support groups and community engagement in your journey to better mental health.</p>  
-                        </div>
-                        <div className='flex pl-[20px] my-[20px]'>
-                            <p className='text-[13px] text-[#A184CF]'>Read More</p>
-                            <img className='w-[4%] object-contain ml-[5px]' src="/icons/Arrow_right.png" alt="" />
-                        </div>
-                    </div>
-                    <div className='shadow-md rounded-md w-[80%]'>
-                        <img className='' src="/Images/Rectangle 3966 (2).png" alt="" />
-                        <div className='px-[20px]'>
-                            <h2 className='mt-[10px] my-[20px] w-[80%] sm:w-full md:w-full lg:w-[80%] sm:my-[10px] md:my-[10px] lg:my-[20px]'>How to Create a Healthy Work-Life Balance</h2>
-                            <i className='text-[#BFC6CA] text-[13px]'>Published: August 1, 2024</i>
-                            <p className='text-[14px] mt-[30px] sm:mt-[10px] md:mt-[10px] lg:mt-[30px]'>Find out how to balance your professional and personal responsibilities. Tips and strategies for setting boundaries, managing stress, and finding time to rest & care.</p> 
-                        </div>
-                        <div className='flex pl-[20px] my-[20px]'>
-                            <p className='text-[13px]  text-[#A184CF]'>Read More</p>
-                            <img className='w-[4%] object-contain ml-[5px]' src="/icons/Arrow_right.png" alt="" />
-                        </div>
-                    </div>
-                </div>
+               </div>
             </section>
             <Footer/>
         </>
