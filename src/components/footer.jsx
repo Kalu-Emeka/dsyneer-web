@@ -24,9 +24,11 @@ function Footer() {
                         <h1 className='mb-2 text-[50px] text-white sm:text-[17px] md:text-[19px] font-bold'>Follow Us</h1>
                         <div className="">
                             <div className="flex mt-[10px]">
-                                <a className="w-[10%] mr-[10px] object-contain" href="" target="_blank"><img className="" src="/icons/Link.webp" alt="" /></a>
+                                {/* <a className="w-[10%] mr-[10px] object-contain" href="" target="_blank"><img className="" src="/icons/Link.webp" alt="" /></a> */}
                                 <a className="w-[10%] mr-[10px] object-contain" href="http://linkedin.com/company/dsyneer" target="_blank"><img className="" src="/icons/Link2.webp" alt="" /></a>
-                                <a className="w-[10%] object-contain" href="" target="_blank"><img className="" src="/icons/Link3.webp" alt="" /></a>
+                                {/* <a className="w-[10%] mr-[10px] object-contain" href="" target="_blank"><img className="" src="/icons/Link3.webp" alt="" /></a> */}
+                                <a className="w-[10%] mr-[10px] object-contain" href="" target="_blank"><img className="" src="/icons/fb.png" alt="" /></a>
+                                <a className="w-[10%] object-contain" href="" target="_blank"><img className="" src="/icons/x.png" alt="" /></a>
                             </div>
                         </div>
                     </div>

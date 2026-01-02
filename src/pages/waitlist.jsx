@@ -57,14 +57,32 @@ function Waitlist () {
                                     <label htmlFor="name" className='mb-[5px]'>Email Address</label>
                                     <input className='pl-[15px] py-[8px] mb-[10px] outline-none bg-[#EDEDED] text-[#717182] border-b rounded-[10px] text-[15px]' type="text" placeholder='your.email@example.com' />
                                 </div>
-                                <div className='flex flex-col mb-[5px]'>
+                                {/* <div className='flex flex-col mb-[5px]'>
                                     <label htmlFor="name" className='mb-[5px]'>I am a...</label>
                                     <select className='pl-[15px] py-[8px] mb-[10px] outline-none bg-[#EDEDED] text-[#717182] border-b rounded-[10px] text-[15px]'>
                                        <option value="" disabled default="Select your role">Select your role</option> 
                                        <option value="">Designer</option> 
                                        <option value="">Customer</option> 
                                     </select>
+                                </div> */}
+                                <div className="flex flex-col mb-[5px] relative">
+                                    <label className="mb-[5px]">I am a...</label>
+
+                                    <select
+                                        className="appearance-none pl-[15px] pr-[40px] mb-[10px]  py-[8px]
+                                        outline-none bg-[#EDEDED] text-[#717182]
+                                        rounded-[10px] text-[15px] w-full"
+                                    >
+                                        <option disabled selected>Select your role</option>
+                                        <option>Designer</option>
+                                        <option>Customer</option>
+                                    </select>
+
+                                    <div className="pointer-events-none absolute right-4 top-[63%] -translate-y-1/2 text-[#717182]">
+                                        ▼
+                                    </div>
                                 </div>
+
                                 <button type="submit" className='w-full bg-[#B59F93] hover:bg-[#6B3E26] text-white py-[13px] rounded-[20px] mb-[20px]'>Join Waitlist</button>
                                 <p className='mb-[20px] text-center text-[15px]'>By joining, you agree to receive updates from DSYNEER. We respect your privacy and won't spam you.</p>
                             </form>
