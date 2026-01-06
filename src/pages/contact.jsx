@@ -68,7 +68,7 @@ function Contacts  () {
                                         <img className='w-[5%] mr-[10px] object-contain' src="/icons/nig.webp" alt="" />
                                         <h4>Lagos, Nigeria</h4>
                                     </div>
-                                    <p className='text-[13px] mb-[15px]'>Primary hub for tailor partnerships</p>
+                                    <p className='text-[13px] mb-[15px]'>Primary hub for fashion designer partnerships</p>
                                     <div className='flex'>
                                         <img className='w-[5%] mr-[10px] object-contain' src="/icons/egy.webp" alt="" />
                                         <h4>Cairo, Egypt</h4>

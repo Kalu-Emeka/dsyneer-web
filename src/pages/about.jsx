@@ -8,7 +8,7 @@ function About () {
                 <div className='flex justify-center items-center'>
                     <div className='flex justify-center items-center flex-col text-center'>
                         <h2 className="mb-2 w-[48%] text-[50px] text-[#1C1C1C] font-medium sm:w-full md:w-full lg:w-[55%] sm:text-[25px] md:text-[27px] lg:text-[40px]">Making African Fashion Accessible Anywhere in the World</h2>
-                        <p className='w-[40%] text-[#0A0A0A] text-medium text-[17px] mb-7 sm:mt-[15px] md:mt-[15px] lg:mt-0 sm:text-[13.5px] lg:text-[15px]  sm:w-[97%] md:w-[70%] lg:w-[65%]'>DSYNEER bridges the gap between diaspora clients and African tailors, making custom traditional wear accessible, reliable, and secure.</p>
+                        <p className='w-[40%] text-[#0A0A0A] text-medium text-[17px] mb-7 sm:mt-[15px] md:mt-[15px] lg:mt-0 sm:text-[13.5px] lg:text-[15px]  sm:w-[97%] md:w-[70%] lg:w-[65%]'>DSYNEER bridges the gap between diaspora clients and African fashion designers, making custom traditional wear accessible, reliable, and secure.</p>
                     </div>
                 </div>  
             </div>
@@ -36,7 +36,7 @@ function About () {
                         </div>
                             <div className='flex mt-[20px]'>
                             <img className='w-[4%] mr-[10px] object-contain'  src="/icons/Container.png" alt="" />
-                            <p>Communication barriers between clients and tailors</p>
+                            <p>Communication barriers between clients and fashion designers</p>
                         </div>
                     </div>
                     <div className='flex justify-center'>
@@ -47,7 +47,7 @@ function About () {
             <section className='bg-[#FFFDF9] py-[60px] px-[90px] mt-[30px] sm:px-[30px] md:px-[30px] lg:px-[90px]' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" >
                 <div className='flex justiy-center items-center flex-col mt-2'>
                     <h2 className='text-[#1C1C1C] font-medium text-[25px]'>Our Solution</h2>
-                    <p className='text-[#0A0A0A] text-[15px] mt-[15px] w-[40%] text-center sm:w-full md:w-full lg:w-[40%]'>We've built a comprehensive platform that addresses every pain point in the diaspora-tailor relationship.</p>
+                    <p className='text-[#0A0A0A] text-[15px] mt-[15px] w-[40%] text-center sm:w-full md:w-full lg:w-[40%]'>We've built a comprehensive platform that addresses every pain point in the diaspora-fashion designer relationship.</p>
                </div>
                <div className="flex space-x-10 mt-12 sm:flex-col lg:flex-row sm:space-x-0 lg:space-x-10">
                     <div className='border border-2 rounded-lg px-[20px] py-[20px] mb-[10px] w-[90%]'>
@@ -60,7 +60,7 @@ function About () {
                     <div className='border border-2 rounded-lg px-[20px] py-[20px] mb-[10px] w-[90%]'>
                         <img className='w-[11%] object-contain mb-[27px]' src="/icons/AboutPage.png" alt=""/>
                         <div>
-                            <p className='text-[#0A0A0A] text-[14px]'>Verified Tailors</p>
+                            <p className='text-[#0A0A0A] text-[14px]'>Verified Fashion Desiigners</p>
                             <p className='text-[#0A0A0A] text-[14px] mt-[20px]'>Work with trusted professionals vetted for quality and reliability.</p>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ function About () {
                         <img className='w-[11%] object-contain mb-[27px]' src="/icons/AboutPage4.png" alt=""/>
                         <div>
                             <p className='text-[#0A0A0A] text-[14px]'>Escrow Protection</p>
-                            <p className='text-[#0A0A0A] text-[14px] mt-[20px]'>Secure payments that protect both clients and tailors.</p>
+                            <p className='text-[#0A0A0A] text-[14px] mt-[20px]'>Secure payments that protect both clients and fashion designers.</p>
                         </div>
                     </div> 
                 </div>
@@ -90,15 +90,15 @@ function About () {
                <div className='grid grid-cols-2 gap-4 bg-white py-[40px] px-[40px] sm:px-[10px] md:px-[10px] lg:px-[40px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
                     <div className='flex flex-col bg-white px-[30px] rounded-md w-[90%] sm:px-[10px] md:px-[10px] lg:px-[40px] py-[30px] border border-2 sm:ml-[20px] lg:ml-0'>
                         <div className='flex items-center'>
-                            <h2 className='text-[20px] pb-[20px] mr-[10px]'>Diaspora Clients</h2> 
-                            <img className='w-[5%] onject-contain pb-[20px] mr-[5px]' src="/icons/usa.webp" alt="" />
+                            <h2 className='text-[20px] pb-[20px] mr-[10px]'>Global Clients</h2> 
+                            {/* <img className='w-[5%] onject-contain pb-[20px] mr-[5px]' src="/icons/usa.webp" alt="" />
                             <img className='w-[5%] onject-contain pb-[20px] mr-[5px]' src="/icons/uk.webp" alt="" />
-                            <img className='w-[5%] onject-contain pb-[20px]' src="/icons/can.webp" alt="" />
+                            <img className='w-[5%] onject-contain pb-[20px]' src="/icons/can.webp" alt="" /> */}
                         </div>
                         <p className='text-[15px]'>Stay connected to your roots with authentic African fashion, delivered anywhere in the world.</p>
                         <div className='flex mt-[20px]'>
                             <img className='w-[3%] mr-[10px] object-contain' src="/icons/Container11.webp" alt="" />
-                            <p className='text-[14px]'>Access to verified African tailors</p>
+                            <p className='text-[14px]'>Access to verified African fashion designers</p>
                         </div>
                             <div className='flex mt-[10px]'>
                             <img className='w-[3%] mr-[10px] object-contain' src="/icons/Container11.webp" alt="" />
@@ -119,8 +119,8 @@ function About () {
                     </div>
                    <div className='flex flex-col bg-white px-[30px] rounded-md w-[90%] sm:px-[10px] md:px-[10px] lg:px-[40px] py-[30px] border border-2 sm:ml-[20px] lg:ml-0'>
                         <div className='flex items-center'>
-                            <h2 className='text-[20px] pb-[20px] mr-[5px]'>African Tailors</h2>
-                            <img className='w-[5%] onject-contain pb-[20px]' src="/icons/nig.webp" alt="" />
+                            <h2 className='text-[20px] pb-[20px] mr-[5px]'>African Fashion Designers</h2>
+                            {/* <img className='w-[5%] onject-contain pb-[20px]' src="/icons/nig.webp" alt="" /> */}
                         </div>
                         <p className='text-[15px]'>Expand your business globally and manage diaspora clients with confidence.</p>
                         <div className='flex mt-[20px]'>
@@ -157,7 +157,7 @@ function About () {
             <section className='mt-[10px] bg-[#6B3E26] py-[90px]'>
                 <div className='flex justiy-center items-center flex-col'>
                     <h2 className='text-white text-[28px] sm:text-[25px] md:text-[25px] lg:text-[28px] text-center'>Join Us in Revolutionizing African Fashion</h2>
-                    <p className='text-[#C3B1A8] text-[14px] mt-[15px] w-[35%] text-center sm:w-[95%] md:w-[95%] lg:w-[35%]'>Whether you're a client or a tailor, DSYNEER is here to make your experience seamless.</p>
+                    <p className='text-[#C3B1A8] text-[14px] mt-[15px] w-[35%] text-center sm:w-[95%] md:w-[95%] lg:w-[35%]'>Whether you're a client or a fashion designer, DSYNEER is here to make your experience seamless.</p>
                     <div className="flex items-center text-[15px] space-x-5 text-[#1C1C1C] pl-[40px] mt-[25px]">
                         <a href="/join-waitlist" rel="noopener noreferrer"><button className="bg-[#F4A300] text-[#6B3E26] rounded-[9px] px-[17px] py-[9px] font-[10px]">Book a Demo</button></a>
                         <a href="/join-waitlist" rel="noopener noreferrer"><button className="bg-white text-[#1C1C1C] rounded-[9px] px-[17px] py-[9px] font-[10px]">Join Waitlist</button></a>
