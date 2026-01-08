@@ -20,9 +20,9 @@ function Terms  () {
                     </div>
                     <div>
                         <h2 className='text-[25px] font-medium my-[20px]'>2. Description of Service </h2>
-                        <p className='text-[15px]'>DSYNEER provides a platform connecting diaspora clients with verified African tailors for custom clothing services.</p>
+                        <p className='text-[15px]'>DSYNEER provides a platform connecting Global clients with verified African fashion designers for custom clothing services.</p>
                         <p className='text-[15px] my-[10px]'>We facilitate communication, measurements, payments, and delivery coordination.</p>
-                        <p className='text-[15px] my-[10px]'>We are not directly responsible for the quality of tailoring services, which is the responsibility of individual tailors.</p>
+                        <p className='text-[15px] my-[10px]'>We are not directly responsible for the quality services, which is the responsibility of individual designers.</p>
                     </div>
                      <div>
                         <h2 className='text-[25px] font-medium my-[20px]'>3. User Accounts</h2>
@@ -35,7 +35,7 @@ function Terms  () {
                      <div>
                         <h2 className='text-[25px] font-medium my-[20px]'>4. User Responsibilities</h2>
                         <p className='text-[15px]'>Clients must provide accurate measurements and requirements for orders.</p>
-                        <p className='text-[15px] my-[10px]'>Tailors must deliver services as agreed and maintain professional standards.</p>
+                        <p className='text-[15px] my-[10px]'>Designers must deliver services as agreed and maintain professional standards.</p>
                         <p className='text-[15px] my-[10px]'>All users must communicate respectfully and professionally.</p>
                         <p className='text-[15px] my-[10px]'>Users must not engage in fraudulent, illegal, or harmful activities.</p>
                         <p className='text-[15px] my-[10px]'>Users must not violate intellectual property rights of others.</p>
@@ -43,7 +43,7 @@ function Terms  () {
                      <div>
                         <h2 className='text-[25px] font-medium my-[20px]'>5. Payments and Fees</h2>
                         <p className='text-[15px]'>All payments are processed securely through our platform.</p>
-                        <p className='text-[15px] my-[10px]'>DSYNEER uses an escrow system to protect both clients and tailors.</p>
+                        <p className='text-[15px] my-[10px]'>DSYNEER uses an escrow system to protect both clients and designers.</p>
                         <p className='text-[15px] my-[10px]'>Service fees and commission rates are clearly displayed before transactions.</p>
                         <p className='text-[15px] my-[10px]'>Refunds are subject to our refund policy and dispute resolution process.</p>
                         <p className='text-[15px] my-[10px]'>All prices are stated in the agreed currency and may be subject to change.</p>
@@ -51,7 +51,7 @@ function Terms  () {
                      <div>
                         <h2 className='text-[25px] font-medium my-[20px]'>6. Escrow Protection</h2>
                         <p className='text-[15px]'>Client payments are held in escrow until order completion is confirmed.</p>
-                        <p className='text-[15px] my-[10px]'>Funds are released to tailors upon successful delivery and client approval.</p>
+                        <p className='text-[15px] my-[10px]'>Funds are released to designers upon successful delivery and client approval.</p>
                         <p className='text-[15px] my-[10px]'>In case of disputes, DSYNEER will mediate based on evidence provided by both parties.</p>
                         <p className='text-[15px] my-[10px]'>DSYNEER reserves the right to hold funds pending dispute resolution.</p>
                     </div>
@@ -60,12 +60,12 @@ function Terms  () {
                         <p className='text-[15px]'>Cancellation policies vary depending on the order stage.</p>
                         <p className='text-[15px] my-[10px]'>Orders can typically be cancelled before work begins for a full refund.</p>
                         <p className='text-[15px] my-[10px]'>Once work has started, cancellations may incur partial charges.</p>
-                        <p className='text-[15px] my-[10px]'>Tailors may cancel orders in exceptional circumstances with appropriate notice.</p>
+                        <p className='text-[15px] my-[10px]'>Designers may cancel orders in exceptional circumstances with appropriate notice.</p>
                         <p className='text-[15px] my-[10px]'>Refund requests must be submitted through our platform with supporting evidence.</p>
                     </div>
                      <div>
                         <h2 className='text-[25px] font-medium my-[20px]'>8. Quality and Disputes</h2>
-                        <p className='text-[15px]'>Clients should review and approve designs before tailors begin work.</p>
+                        <p className='text-[15px]'>Clients should review and approve designs before designers begin work.</p>
                         <p className='text-[15px] my-[10px]'>Any quality issues should be reported within 7 days of delivery.</p>
                         <p className='text-[15px] my-[10px]'>DSYNEER will mediate disputes but is not liable for tailor performance.</p>
                         <p className='text-[15px] my-[10px]'>Evidence such as photos, measurements, and communications may be required.</p>
@@ -74,7 +74,7 @@ function Terms  () {
                      <div>
                         <h2 className='text-[25px] font-medium my-[20px]'>9. Intellectual Property</h2>
                         <p className='text-[15px]'>DSYNEER owns all rights to the platform, including design, code, and branding.</p>
-                        <p className='text-[15px] my-[10px]'>Tailors retain rights to their original designs and portfolios.</p>
+                        <p className='text-[15px] my-[10px]'>Designers retain rights to their original designs and portfolios.</p>
                         <p className='text-[15px] my-[10px]'>By uploading content, you grant DSYNEER a license to display it on our platform.</p>
                         <p className='text-[15px] my-[10px]'>Users must not copy, reproduce, or distribute platform content without permission.</p>
                     </div>
@@ -88,8 +88,8 @@ function Terms  () {
                     </div>
                     <div>
                         <h2 className='text-[25px] font-medium my-[20px]'>11. Limitation of Liability</h2>
-                        <p className='text-[15px]'>DSYNEER is a platform and not directly responsible for tailor services.</p>
-                        <p className='text-[15px] my-[10px]'>We do not guarantee the quality, accuracy, or timeliness of tailoring work.</p>
+                        <p className='text-[15px]'>DSYNEER is a platform and not directly responsible for services.</p>
+                        <p className='text-[15px] my-[10px]'>We do not guarantee the quality, accuracy, or timeliness of services.</p>
                         <p className='text-[15px] my-[10px]'>DSYNEER is not liable for any indirect, incidental, or consequential damages.</p>
                         <p className='text-[15px] my-[10px]'>Our total liability is limited to the amount of fees paid for the specific transaction.</p>
                         <p className='text-[15px] my-[10px]'>Some jurisdictions do not allow limitation of liability, so these may not apply to you.</p>

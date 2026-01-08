@@ -31,7 +31,7 @@ function Privacy () {
                         <p className='text-[15px]'>We do not sell or rent your personal information to third parties.</p>
                         <p className='text-[15px] my-[10px]'>We may share your information with service providers who perform services on our behalf.</p>
                         <p className='text-[15px] my-[10px]'>We may share information when required by law or to protect our rights and safety.</p>
-                        <p className='text-[15px] my-[10px]'>Tailors and clients will have access to necessary contact and order information to complete transactions.</p>
+                        <p className='text-[15px] my-[10px]'>Designers and clients will have access to necessary contact and order information to complete transactions.</p>
                     </div>
                      <div>
                         <h2 className='text-[25px] font-medium my-[20px]'>4. Data Security</h2>
@@ -76,7 +76,7 @@ function Privacy () {
                     </div>
                     <div className='bg-[#FEF6E5] px-[20px] py-[20px] rounded-lg border-[#FEF6E5] border-2 mt-[20px]'>
                         <h2 className='text-[18px] font-medium mb-[20px]'>Important Note</h2> 
-                        <p>DSYNEER is not intended for collecting personally identifiable information (PII) or securing highly sensitive data. Please do not share sensitive personal information beyond what is necessary for using our tailoring services.</p>
+                        <p>DSYNEER is not intended for collecting personally identifiable information (PII) or securing highly sensitive data. Please do not share sensitive personal information beyond what is necessary for using our designing services.</p>
                     </div>
                 </div>
             </section>

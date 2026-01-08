@@ -9,7 +9,7 @@ function LandingPage () {
                 <div className='flex justify-between items-center sm:flex-col md:flex-col lg:flex-row'>
                     <div>
                         <h2 className="mb-2 w-[48%] text-[50px] text-[#1C1C1C] font-medium sm:w-full md:w-full lg:w-[70%] sm:text-[25px] md:text-[27px] lg:text-[40px] lg:w-[40px]">Get Custom African Wear from Trusted Designers, Wherever You Are</h2>
-                        <p className='w-[40%] text-[#0A0A0A] text-medium text-[17px] mb-7 sm:mt-[15px] md:mt-[15px] lg:mt-0 sm:text-[13.5px] lg:text-[15px]  sm:w-[100%] md:w-[70%] lg:w-[70%]'>Connect with verified African designers, take measurements with your phone, and receive perfectly fitted outfits delivered to your doorstep.</p>
+                        <p className='w-[40%] text-[#0A0A0A] text-medium text-[17px] mb-7 sm:mt-[15px] md:mt-[15px] lg:mt-0 sm:text-[13.5px] lg:text-[15px]  sm:w-[100%] md:w-[70%] lg:w-[70%]'>Connect with verified African designers, take measurements with your phone, get protectedby our escrow system and receive perfectly fitted outfits delivered to your doorstep.</p>
                         <div className='text-[13px] sm:mb-[30px] md:mb-[30px] lg:mb-0'>
                             <a href="/join-waitlist" rel="noopener noreferrer"><button className="bg-[#6B3E26] text-white rounded-[9px] px-[17px] py-[9px] font-[10px] mr-[20px]">Book a Demo</button></a>
                             <a href="/join-waitlist" rel="noopener noreferrer"><button className="border-[#6B3E26] border-1 text-[#6B3E26] rounded-[9px] px-[17px] py-[8px] font-[10px]">Join Waitlist</button></a>
