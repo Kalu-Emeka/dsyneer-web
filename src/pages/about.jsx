@@ -8,7 +8,7 @@ function About () {
                 <div className='flex justify-center items-center'>
                     <div className='flex justify-center items-center flex-col text-center'>
                         <h2 className="mb-2 w-[48%] text-[50px] text-[#1C1C1C] font-medium sm:w-full md:w-full lg:w-[55%] sm:text-[25px] md:text-[27px] lg:text-[40px]">Making African Fashion Accessible Anywhere in the World</h2>
-                        <p className='w-[40%] text-[#0A0A0A] text-medium text-[17px] mb-7 sm:mt-[15px] md:mt-[15px] lg:mt-0 sm:text-[13.5px] lg:text-[15px]  sm:w-[97%] md:w-[70%] lg:w-[65%]'>DSYNEER bridges the gap between diaspora clients and African fashion designers, making custom traditional wear accessible, reliable, and secure.</p>
+                        <p className='w-[40%] text-[#0A0A0A] text-medium text-[17px] mb-7 sm:mt-[15px] md:mt-[15px] lg:mt-0 sm:text-[13.5px] lg:text-[15px]  sm:w-[97%] md:w-[70%] lg:w-[65%]'>DSYNEER bridges the gap between global clients and African fashion designers, making custom traditional wear accessible, reliable, and secure.</p>
                     </div>
                 </div>  
             </div>
@@ -21,7 +21,7 @@ function About () {
                 <div className='grid grid-cols-2 gap-4 bg-white py-[40px] px-[40px] sm:px-[10px] md:px-[10px] lg:px-[40px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
                     <div className='flex flex-col bg-white px-[30px] rounded-md w-[90%] sm:px-[10px] md:px-[10px] lg:px-[40px]'>
                         <h2 className='text-[25px] pb-[20px]'>The Challenge</h2>
-                        <p className='text-[15px]'>Diaspora communities worldwide struggle to maintain their cultural connection through traditional fashion. The challenges are real and frustrating:</p>
+                        <p className='text-[15px]'>Global communities worldwide struggle to maintain their cultural connection through traditional fashion. The challenges are real and frustrating:</p>
                         <div className='flex mt-[20px]'>
                             <img className='w-[4%] mr-[10px] object-contain' src="/icons/Container.png" alt="" />
                             <p>Inaccurate measurements leading to poor-fitting garments</p>
@@ -47,7 +47,7 @@ function About () {
             <section className='bg-[#FFFDF9] py-[60px] px-[90px] mt-[30px] sm:px-[30px] md:px-[30px] lg:px-[90px]' data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" >
                 <div className='flex justiy-center items-center flex-col mt-2'>
                     <h2 className='text-[#1C1C1C] font-medium text-[25px]'>Our Solution</h2>
-                    <p className='text-[#0A0A0A] text-[15px] mt-[15px] w-[40%] text-center sm:w-full md:w-full lg:w-[40%]'>We've built a comprehensive platform that addresses every pain point in the diaspora-fashion designer relationship.</p>
+                    <p className='text-[#0A0A0A] text-[15px] mt-[15px] w-[40%] text-center sm:w-full md:w-full lg:w-[40%]'>We've built a comprehensive platform that addresses every pain point in the global-fashion designer relationship.</p>
                </div>
                <div className="flex space-x-10 mt-12 sm:flex-col lg:flex-row sm:space-x-0 lg:space-x-10">
                     <div className='border border-2 rounded-lg px-[20px] py-[20px] mb-[10px] w-[90%]'>
@@ -122,7 +122,7 @@ function About () {
                             <h2 className='text-[20px] pb-[20px] mr-[5px]'>African Fashion Designers</h2>
                             {/* <img className='w-[5%] onject-contain pb-[20px]' src="/icons/nig.webp" alt="" /> */}
                         </div>
-                        <p className='text-[15px]'>Expand your business globally and manage diaspora clients with confidence.</p>
+                        <p className='text-[15px]'>Expand your business globally and manage global clients with confidence.</p>
                         <div className='flex mt-[20px]'>
                             <img className='w-[3%] mr-[10px] object-contain' src="/icons/Container11.webp" alt="" />
                             <p className='text-[14px]'>Access to global client base</p>

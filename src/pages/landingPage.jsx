@@ -31,7 +31,7 @@ function LandingPage () {
                         <div className='pl-[25px] pt-[20px] border rounded-b-md w-[80%] shadow-sm'>
                             <h3 className='text-[#F4A300] font-medium text-[27px]'>01</h3>
                             <p className='text-[#0A0A0A] text-[14px] mt-[15px]'>Find Your Fashion Designer</p>
-                            <p className='text-[#0A0A0A] text-[13px] mt-[10px] w-[90%] pb-[30px]'>Browse verified African designers with portfolios and reviews from diaspora clients.</p>
+                            <p className='text-[#0A0A0A] text-[13px] mt-[10px] w-[90%] pb-[30px]'>Browse verified African designers with portfolios and reviews from global  clients.</p>
                         </div>
                     </div> 
                     <div className='sm:mb-[20px] md:mb-[20px] lg:mb-0'>
@@ -55,7 +55,7 @@ function LandingPage () {
             <section className='mt-[10px] p-20 sm:p-[25px] md:p-[25px] lg:p-15'  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                 <div className='flex justiy-center items-center flex-col mt-5'>
                     <h2 className='text-[#1C1C1C] font-medium text-[25px]'>Why Choose DSYNEER</h2>
-                    <p className='text-[#0A0A0A] text-[15px] mt-[15px] sm:text-center md:text-center lg:text-left'>The trusted platform connecting diaspora clients with African designers</p>
+                    <p className='text-[#0A0A0A] text-[15px] mt-[15px] sm:text-center md:text-center lg:text-left'>The trusted platform connecting global clients with African designers</p>
                </div>
                <div className="grid grid-cols-3 pl-[80px] gap-2 mt-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center sm:pl-[60px] md:pl-[60px] lg:pl-[80px]">
                     <div className=''>

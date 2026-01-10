@@ -8,7 +8,7 @@ function Footer() {
                             <img className="w-[35%] mb-[20px] sm:w-[10%] md:w-[10%] lg:w-[10%] object-contain" src="/icons/Container.webp" alt="" />
                             <h2 className="mt-[7px] ml-[10px]">DSYNEER</h2>
                         </div>
-                        <p className="text-[16px] text-gray-300 w-[90%]">Connecting diaspora clients with verified African fashion designers for perfect custom wear.</p>
+                        <p className="text-[16px] text-gray-300 w-[90%]">Connecting global clients with verified African fashion designers for perfect custom wear.</p>
                     </div>
                     <div>
                         <h1 className='mb-2 text-[50px] text-white sm:text-[17px] md:text-[19px] font-medium'>Quick Links</h1>
